@@ -1,9 +1,10 @@
+"use strict";
 // More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
-var apple = "apple";
-var upercaseApple = "APPLE";
-var ten = 10;
-var twenty = 20;
-var cars = ["BMW", "Audi", "Civic"];
+let apple = "apple";
+let upercaseApple = "APPLE";
+let ten = 10;
+let twenty = 20;
+let cars = ["BMW", "Audi", "Civic"];
 // • Tests for equality and inequality with strings
 console.log("\nIs apple equal to apple");
 console.log(apple == "apple");
@@ -40,5 +41,5 @@ console.log(twenty > 50 || twenty != 20);
 console.log("\nIs BWM in my cars arry");
 console.log(cars.includes("BMW"));
 // • Test whether an item is not in a array
-console.log("\nIs BWM iis not in my cars arry");
+console.log("\nIs BWM is not in my cars arry");
 console.log(!cars.includes("BMW"));
